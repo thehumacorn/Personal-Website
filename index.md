@@ -33,13 +33,13 @@
       <li><a href="About.html">About</a></li>
 
       <!-- Work Dropdown Menu -->
-      <li class="work_dropdown"><a href="#">Work</a>
+        <li class="work_dropdown"><a href="#">Work</a>
 
-        <div class="dropdown-content">
-          <a href="Photography.html">Photography</a>
-          <a href="Programming.html">Programming Projects</a>
-        </div>
-      </li>
+          <div class="dropdown-content">
+            <a href="Photography.html">Photography</a>
+            <a href="Programming.html">Programming Projects</a>
+          </div>
+        </li>
 
       <li><a href="Contact.html">Contact</a></li>
     </ul>
