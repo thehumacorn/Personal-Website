@@ -14,8 +14,7 @@
   <!-- importing swiper api -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-
-  <title>Home Page</title>
+  
 </head>
 
 <body>
