@@ -83,6 +83,10 @@ nav {
   margin: 5px;
   transition: all 1s ease;
 }
+/* Navigation Bar - Burger Menu */
+
+
+
 
 /* Photography - Photo Swiper */
 .swiper-container {
@@ -95,6 +99,12 @@ nav {
   width: auto;
   height: 600px;
 }
+/* Photography - Photo Swiper */
+
+
+
+
+
 
 /* Website Window - 1024px to 769px */
 @media screen and (max-width: 1024px) {
@@ -157,7 +167,10 @@ nav {
   */
 }
 
-/* Website Window - 768px to 0px */
+
+
+
+/* Website Moblie Window - 768px to 0px */
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
@@ -258,12 +271,20 @@ nav {
   width: auto;
   height: 600px;
 }
+/* Website Moblie Window - 768px to 0px */
+
+
+
+
 
 /* About Page - Styling */
 .name {
   font-family: 'Bilbo', cursive;
   font-size: 437.5%;
 }
+/* About Page - Styling */
+
+
 
 /* Contact Page - Styling */
 form {
@@ -301,3 +322,11 @@ form .submit:hover {
   background-color: #ebecf1;
   cursor: pointer;
 }
+/* Contact Page - Styling */
+
+/* Parallax - Styling */
+.parallax {
+  background-image: url(../images/main_image_deep_field_smacs0723-5mb.jpg)
+  padding: 100px; 
+}
+
