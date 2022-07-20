@@ -326,7 +326,15 @@ form .submit:hover {
 
 /* Parallax - Styling */
 .parallax {
-  background-image: url("../images/main_image_deep_field_smacs0723-5mb.jpg")
-  padding: 100px; 
+  background-image: url("../images/main_image_deep_field_smacs0723-5mb.jpg");
+  padding: 100px;
 }
+.name{
+  color: blue;
+}
+.des_scrpt{
+  color: blue;
+}
+/* Parallax - Styling */
+
 
