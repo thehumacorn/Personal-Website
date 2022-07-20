@@ -331,9 +331,13 @@ form .submit:hover {
 }
 .name{
   color: white;
+  width: 100%;
+  height: 100vh;
 }
 .des_scrpt{
   color: white;
+  width: 100%;
+  height: 100vh;
 }
 /* Parallax - Styling */
 
