@@ -327,13 +327,17 @@ form .submit:hover {
 /* Parallax - Styling */
 .parallax {
   background-image: url("../images/main_image_deep_field_smacs0723-5mb.jpg");
-  padding: 100px;
+  padding: 500px;
+  
+  background-attachment: fixed;
 }
+/* Parallex Section 1 */
 .name{
   color: white;
   width: 100%;
   height: 100vh;
 }
+/* Parallex Section 2 */
 .des_scrpt{
   color: white;
   width: 100%;
