@@ -1,10 +1,9 @@
 /* Website Window - Max Window Size to 1025px */
 body {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
 /* A function to be added to */
 @mixin align-center {
     display: flex;
@@ -13,7 +12,7 @@ body {
 }
 
 /* Logo - Hello Friend */
-.logo {
+.logo{
   color: #FFFFF0;
   letter-spacing: 5px;
   font-family: 'Fira Code', monospace;
@@ -135,7 +134,7 @@ nav {
   }
 
   .dropdown-content a:hover {
-    color:
+    color: aqua;
   }
 
   .nav-links .work_dropdown:hover .dropdown-content {
