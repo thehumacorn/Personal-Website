@@ -349,3 +349,25 @@ form .submit {
     inset: 0;
     @include align-center;
 }
+
+
+#intro {
+}
+
+#group-1 {
+}
+
+    #group-1 > .base-layer {
+        background-color: crimson;
+    }
+
+#group-2 {
+}
+
+    #group-2 > .mid-layer {
+        background-color: yellowgreen;
+    }
+
+#outro {
+}
+
