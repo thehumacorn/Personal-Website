@@ -1,9 +1,10 @@
 /* Website Window - Max Window Size to 1025px */
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #ffeadb;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffeadb;
+    @include align-center;
 }
 
 /* Logo - Hello Friend */
@@ -166,6 +167,7 @@ nav {
     background-image: url(../images/paris-chair.jpg);
   }
   */
+
 }
 
 
@@ -401,7 +403,8 @@ form .submit:hover {
 
 /*Static background for group one base-layer */
 #group-1 > .base-layer {
-    background-image: url("../images/NewOrleans-flags.JPG");
+
+    background-color: black;
 }
 
 #group-2{}
