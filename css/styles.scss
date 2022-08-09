@@ -322,18 +322,18 @@ form .submit {
 
 /* Parallex Intro Screen */
 .intro-screen {
+    @include align-center;
     height: 100vh;
     font-size: 40px;
     color: white;
-    @include align-center;
 }
 
 /* Parallex Outro Screen */
 .outro-screen {
+    @include align_center;
     height: 100vh;
     font-size: 40px;
     color: red;
-    @include align_center;
 }
 
 /* Parallax Group Wrapper Settings */
