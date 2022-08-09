@@ -310,8 +310,6 @@ form .submit {
         cursor: pointer;
     }
 
-/* Contact Page - Styling */
-
 /* Parallax - Styling */
 .parallax-wrapper {
     height: 100vh;
@@ -322,10 +320,11 @@ form .submit {
 
 /* Parallex Intro Screen */
 .intro-screen {
-    @include align-center;
     height: 100vh;
     font-size: 40px;
-    color: white;
+    color: black;
+    background-color: white;
+    @include align-center;
 }
 
 /* Parallex Outro Screen */
@@ -333,6 +332,7 @@ form .submit {
     @include align_center;
     height: 100vh;
     font-size: 40px;
+    background-color: blue;
     color: red;
 }
 
@@ -346,35 +346,7 @@ form .submit {
 
 /* Parallax Layer Settings */
 .parallax-layer {
-    @include align-center;
     position: absolute;
     inset: 0;
-}
-
-/* Parallex Group 1 */
-.base-layer {
-    color: white;
-    transform: translateZ(-300px);
-}
-
-/* Parallex Section 2 */
-/* */
-#intro {
-}
-
-#group-1 {
-}
-    /*Static background for group one base-layer */
-    #group-1 > .base-layer {
-        background-color: black;
-    }
-
-#group-2 {
-}
-
-    #group-2 > .mid-layer {
-        background-color: lightgrey;
-    }
-
-#outro {
+    @include align-center;
 }
