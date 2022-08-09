@@ -321,21 +321,20 @@ form .submit {
 /* Parallex Intro Screen */
 .intro-screen {
     height: 100vh;
-    font-size: 40px;
+    font-size: 70px;
     color: black;
-    background-color: white;
+    background-color: yellow;
     @include align-center;
 }
 
 /* Parallex Outro Screen */
 .outro-screen {
-    @include align_center;
     height: 100vh;
     font-size: 40px;
     background-color: blue;
     color: red;
+    @include align_center;
 }
-
 /* Parallax Group Wrapper Settings */
 .parallax-group {
     position: relative;
