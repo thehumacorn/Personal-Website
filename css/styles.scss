@@ -339,10 +339,9 @@ form .submit:hover {
 /* Parallex Intro Screen */
 .intro-screen {
     height: 100vh;
-    background-image: url("../images/main_image_deep_field_smacs0723-5mb.jpg");
-    @include align-center;
     font-size: 40px;
     color: white;
+    @include align-center;
 }
 /* Parallex Section 1 */
 .para{
