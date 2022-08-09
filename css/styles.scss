@@ -3,8 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ffeadb;
-    @include align-center;
+
+/* A function to be added to */
+@mixin align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Logo - Hello Friend */
@@ -387,13 +391,8 @@ form .submit:hover {
   height: 100vh;
 }
 
-
-/* A function to be added to */
-@mixin align-center {
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
+
 
 
 /* */
